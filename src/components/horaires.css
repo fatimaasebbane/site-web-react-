@@ -1,0 +1,147 @@
+.horaire {
+    color: brown;
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 60px;
+
+}
+
+.list-unstyled {
+    color: black;
+    font-size: 23px;
+    font-weight: 450;
+    margin-top: 95px;
+    font-family: "Times New Roman, Times, serif";
+    letter-spacing: 2px;
+    margin-bottom: 70px;
+
+}
+
+.imgCafeRestaurant {
+    margin-top: 60px !important;
+    margin-bottom: 50px;
+    border: solid 2px;
+}
+
+.btn-success {
+    background-color: #ce9c15 !important;
+    font-size: 40px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    margin-left: 100px;
+    margin-top: 40px;
+    color: rgb(34, 32, 32) !important;
+    border: solid 1px !important;
+}
+
+.reserver {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    margin-top: 20px !important;
+    margin-left: 68px;
+}
+
+.event {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    margin-top: 20px !important;
+    margin-left: 68px;
+
+}
+
+.livraison {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    margin-top: 20px !important;
+    margin-left: 52px;
+
+}
+
+.imgUnderline4 {
+    margin-left: 295px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+
+    .list-unstyled {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .horaire {
+        font-size: 25px;
+        text-align: center;
+    }
+
+
+
+    .reserver {
+        font-size: 15px;
+    }
+
+    .event {
+        font-size: 15px;
+    }
+
+    .livraison {
+        font-size: 15px;
+    }
+
+    .btn-success {
+        font-size: 18px !important;
+    }
+}
+
+@media (max-width: 634px) {
+
+
+    .list-unstyled {
+        font-size: 17px;
+        margin-top: 15px;
+        margin-bottom: 17px;
+        text-align: justify;
+        margin-left: 180px;
+    }
+
+    .horaire {
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    .reserver {
+        font-size: 12px;
+        margin-left: 230px;
+    }
+
+    .event {
+        font-size: 12px;
+        margin-left: 180px;
+    }
+
+    .livraison {
+        font-size: 12px;
+        margin-left: 200px;
+    }
+
+    .btn-success {
+
+        font-size: 13px !important;
+        margin-left: 250px;
+        margin-top: 40px;
+
+    }
+
+    .imgCafeRestaurant {
+        width: 430px;
+        height: 300px;
+        text-align: center;
+        margin-left: 45px;
+    }
+}

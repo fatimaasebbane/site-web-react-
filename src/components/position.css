@@ -1,0 +1,25 @@
+.titre {
+    color: brown;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 60px;
+    margin-bottom: 30px;
+
+}
+
+.ligne {
+    color: black;
+    width: 100%;
+    border: solid 1.5px;
+}
+
+.site {
+    font-size: 18px;
+
+    font-family: "Times New Roman, Times, serif";
+    padding-top: 7px;
+    padding-bottom: 6px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    padding-right: 50px !important;
+}
