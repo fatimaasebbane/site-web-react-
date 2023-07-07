@@ -1,7 +1,7 @@
 import './navbar.css';
 import logo from '../imges/logo.png';
 import React from 'react';
-
+import { HashLink as Link } from "react-router-hash-link";
 function Navbar() {
     return (
         <nav class="navbar navbar-expand-lg fixed-top">
@@ -12,21 +12,32 @@ function Navbar() {
                 </button>
                 <div class="collapse navbar-collapse justify-content-center " id="navbarSupportedContent">
                     <ul class="navbar-nav">
-                        <li class="acceuil">
-                            <a class="nav-link " aria-current="page" href="#">Acceuil</a>
-                        </li>
-                        <li class="café">
-                            <a class="nav-link" href="#">Café</a>
-                        </li>
-                        <li class="restaurant">
-                            <a class="nav-link" href="#">Restaurant</a>
-                        </li>
-                        <li class="horaires">
-                            <a class="nav-link ">Nos horaires</a>
-                        </li>
-                        <li class="contact">
-                            <a class="nav-link ">Contact</a>
-                        </li>
+                        <Link to='#home' className='nav-link'>
+                            <li class="acceuil">
+                                Acceuil
+                            </li>
+                        </Link>
+                        <Link to="#coffee" className='nav-link'>
+                            <li class="café">
+                                Café
+                            </li>
+                        </Link>
+                        <Link to="#restaurant" className='nav-link'>
+                            <li class="restaurant">
+                                Restaurant
+                            </li>
+                        </Link>
+                        <Link to="#horaire" className='nav-link'>
+                            <li class="horaires">
+                                Nos horaires
+                            </li>
+                        </Link>
+                        <Link to="#contact" className='nav-link'>
+                            <li class="contact">
+                                Contact
+                            </li>
+                        </Link>
+
                     </ul>
                 </div>
             </div>

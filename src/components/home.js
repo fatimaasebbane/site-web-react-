@@ -3,19 +3,19 @@ import img3 from '../imges/underline.png';
 import './home.css'
 function home() {
     return (
-        <div className=''>
+        <div id='home'>
             <br />
             <br />
             <br />
             <br />
             <br />
 
-            <div className="home" style={{ backgroundImage: `url(${img2})` }}>
+            <div className="home " style={{ backgroundImage: `url(${img2})` }}>
             </div>
             <h3 className='cafeRestaurant'>
                 Café et Restaurant Merci!
             </h3>
-            <img className='imgUnderline' src={img3} width={"400px"} height={"30px"} />
+            <img className='imgUnderline img-fluid' src={img3} width={"400px"} height={"30px"} />
             <div className='container'>
                 <div className='row'>
                     <p className='description text-center'>

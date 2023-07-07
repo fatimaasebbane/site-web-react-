@@ -2,7 +2,7 @@ import './contact.css';
 import img3 from '../imges/underline.png';
 function contact() {
     return (
-        <div class="container">
+        <div class="container" id="contact">
             <section class="">
                 <h2 class="h1-responsive  text-center my-4">Contact us</h2>
                 <img className='imgUnderline6' src={img3} width={"300px"} height={"20px"} />

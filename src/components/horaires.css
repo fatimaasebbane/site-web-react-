@@ -11,17 +11,11 @@
     color: black;
     font-size: 23px;
     font-weight: 450;
-    margin-top: 95px;
+    margin-top: 45px;
     font-family: "Times New Roman, Times, serif";
     letter-spacing: 2px;
     margin-bottom: 70px;
 
-}
-
-.imgCafeRestaurant {
-    margin-top: 60px !important;
-    margin-bottom: 50px;
-    border: solid 2px;
 }
 
 .btn-success {
@@ -138,10 +132,10 @@
 
     }
 
-    .imgCafeRestaurant {
-        width: 430px;
-        height: 300px;
-        text-align: center;
-        margin-left: 45px;
+
+    .imgUnderline4 {
+        margin-left: 190px;
+        width: 150px;
+        margin-bottom: auto;
     }
 }

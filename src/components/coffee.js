@@ -3,7 +3,7 @@ import img4 from '../imges/underline.png';
 import './coffee.css';
 function coffee() {
     return (
-        <div className="coffee">
+        <div className="coffee" id='coffee'>
             <h3 className='cafe'>Café  Merci !</h3>
             <img className='imgUnderline2' src={img4} />
 
@@ -14,13 +14,13 @@ function coffee() {
                         torréfiés de la plante de café.<br /><br />
 
                         Le café est souvent consommé chaud et peut être servi noir,
-                        avec du lait,de la crème ou du sucre selon les préférences individuelles.
+                        avec du lait.
                         <br />
                         <button className='btn btn-primary border border-secondary rounded-0'>MENU CAFE</button>
 
                     </div>
                     <div className="col-md-6 col-lg-6">
-                        <img className='imgMot' src={img3} alt="cafe" width={"450px"} height={"440px"} />
+                        <img className='img-fluid' src={img3} alt="cafe" width={"450px"} height={"440px"} />
                     </div>
                 </div>
             </div>

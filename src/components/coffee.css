@@ -12,12 +12,12 @@
 .btn-primary:active,
 .btn-primary:visited {
     background-color: #ce9c15 !important;
-    margin-top: 40px !important;
+    margin-top: 30px !important;
     font-size: 15px !important;
     padding-left: 50px !important;
     padding-right: 50px !important;
-    padding-top: 20px !important;
-    padding-bottom: 20px !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
     line-height: 1.5 !important;
     color: black !important;
     font-weight: bold !important;
@@ -35,11 +35,6 @@
     padding-right: 50px !important;
 }
 
-.imgMot {
-    margin-top: 20px;
-    padding-left: 20px !important;
-
-}
 
 .imgUnderline2 {
     margin-left: 430px;
@@ -47,19 +42,6 @@
     margin-bottom: 50px;
     width: 300px;
     height: 20px;
-}
-
-@media (max-width: 768px) {
-
-    .mot {
-        font-size: 12px;
-        text-align: center;
-    }
-
-    .cafe {
-        font-size: 25px;
-        text-align: center;
-    }
 }
 
 @media (max-width: 634px) {
@@ -87,11 +69,9 @@
         padding-bottom: 10px !important;
     }
 
-    .imgMot {
-        width: 350px;
-        height: 300px;
-        text-align: center;
-        margin-left: 45px;
+    .imgUnderline2 {
+        margin-left: 255px;
+        width: 100px;
+        margin-bottom: auto;
     }
-
 }

@@ -62,5 +62,11 @@
         width: 50% !important;
     }
 
+    .imgUnderline {
+        margin-left: 210px;
+        width: 200px;
+        margin-top: 5px;
+        margin-bottom: auto;
+    }
 
 }
