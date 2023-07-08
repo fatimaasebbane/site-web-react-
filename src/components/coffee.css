@@ -67,6 +67,7 @@
         padding-right: 15px !important;
         padding-top: 10px !important;
         padding-bottom: 10px !important;
+        margin-bottom: 10px;
     }
 
     .imgUnderline2 {
@@ -74,4 +75,15 @@
         width: 100px;
         margin-bottom: auto;
     }
+}
+
+@media (max-width: 414px) {
+
+    .imgUnderline2 {
+        margin-left: 110px;
+        width: 200px;
+        margin-top: 5px;
+        margin-bottom: auto;
+    }
+
 }

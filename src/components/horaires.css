@@ -139,3 +139,48 @@
         margin-bottom: auto;
     }
 }
+
+@media (max-width: 414px) {
+
+    .imgUnderline4 {
+        margin-left: 100px;
+        width: 200px;
+        margin-top: 5px;
+        margin-bottom: auto;
+    }
+
+    .list-unstyled {
+        font-size: 17px;
+        margin-top: 15px;
+        margin-bottom: 17px;
+        text-align: justify;
+        margin-left: 120px;
+    }
+
+
+    .reserver {
+        font-size: 12px;
+        margin-left: 160px;
+    }
+
+    .event {
+        font-size: 12px;
+        margin-left: 130px;
+    }
+
+    .livraison {
+        font-size: 12px;
+        margin-left: 150px;
+    }
+
+    .btn-success {
+
+        font-size: 13px !important;
+        margin-left: 180px;
+        margin-top: 40px;
+
+    }
+
+
+
+}

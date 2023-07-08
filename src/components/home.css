@@ -70,3 +70,14 @@
     }
 
 }
+
+@media (max-width: 414px) {
+
+    .imgUnderline {
+        margin-left: 110px;
+        width: 200px;
+        margin-top: 5px;
+        margin-bottom: auto;
+    }
+
+}

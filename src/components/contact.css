@@ -110,3 +110,14 @@ label {
         margin-bottom: auto;
     }
 }
+
+@media (max-width: 414px) {
+
+    .imgUnderline6 {
+        margin-left: 100px;
+        width: 200px;
+        margin-top: 5px;
+        margin-bottom: auto;
+    }
+
+}
